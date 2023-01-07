@@ -94,3 +94,26 @@ p{
     border-radius: 2rem;
     color: var(--primary-color);
 }
+
+/* footer */
+footer{
+    text-align: center;
+    padding: 2rem 1rem;
+    background-color: var(--primary-color);
+    border-top-right-radius: 2rem;
+    margin-top: 1rem;
+}
+
+.footer-header{
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: var(--secondary-color);
+}
+
+footer ul{
+    padding-inline-start: 0px;
+}
+
+footer a{
+    color: var(--secondary-color);
+}
