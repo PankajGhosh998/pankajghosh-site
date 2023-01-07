@@ -49,6 +49,7 @@ body{
 /* header */
 header{
     text-align: center;
+    padding: 5rem 1rem;
 }
 .hero-image{
     max-width: 350px;
