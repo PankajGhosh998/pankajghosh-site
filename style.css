@@ -6,6 +6,7 @@
     --primary-color : #22c55e;
     --secondary-color : white;
     --gray : gray;
+    --off-white : #f3f4f6;
 }
 
 /* page setup */
@@ -49,7 +50,7 @@ body{
 /* header */
 header{
     text-align: center;
-    padding: 5rem 1rem;
+    padding: 2rem 1rem;
 }
 .hero-image{
     max-width: 350px;
@@ -57,4 +58,14 @@ header{
 }
 .hero-header{
     color: var(--gray);
+}
+
+/* section */
+section{
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+.off-white{
+    background-color: var(--off-white);
 }
