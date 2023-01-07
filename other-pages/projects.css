@@ -52,10 +52,6 @@ header{
     text-align: center;
     padding: 2rem 1rem;
 }
-.hero-image{
-    max-width: 350px;
-    margin: auto;
-}
 .hero-header{
     color: var(--gray);
 }
@@ -66,9 +62,7 @@ section{
     padding: 2rem 1rem;
     border-radius: 1rem;
 }
-.section-header{
-    padding: 0.5rem 0rem;
-}
+
 .off-white{
     background-color: var(--off-white);
 }
