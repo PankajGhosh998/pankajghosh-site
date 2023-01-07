@@ -64,10 +64,16 @@ header{
 section{
     text-align: center;
     padding: 2rem 1rem;
+    border-radius: 1rem;
 }
 
 .off-white{
     background-color: var(--off-white);
+}
+
+/* paragraph */
+p{
+    padding: 0.5rem;
 }
 
 /* button */
