@@ -5,7 +5,9 @@
 :root{
     --primary-color : #22c55e;
     --secondary-color : white;
+    --gray : gray;
 }
+
 /* page setup */
 body{
     font-family: 'Montserrat', sans-serif;;
@@ -15,6 +17,7 @@ body{
 .link{
     text-decoration: none;
 }
+
 /* navigation */
 .navigation{
     background-color: var(--primary-color);
@@ -41,4 +44,16 @@ body{
 }
 .link-active{
     font-weight: bold;
+}
+
+/* header */
+header{
+    text-align: center;
+}
+.hero-image{
+    max-width: 350px;
+    margin: auto;
+}
+.hero-header{
+    color: var(--gray);
 }
