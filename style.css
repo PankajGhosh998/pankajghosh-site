@@ -69,3 +69,22 @@ section{
 .off-white{
     background-color: var(--off-white);
 }
+
+/* button */
+
+.buttons{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.button-primary{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border-radius: 2rem;
+}
+
+.button-secondary{
+    border: 1px solid var(--primary-color);
+    border-radius: 2rem;
+    color: var(--primary-color);
+}
