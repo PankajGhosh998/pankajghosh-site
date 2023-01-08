@@ -1,0 +1,115 @@
+/* import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+/*set variable */
+:root{
+    --primary-color : #22c55e;
+    --secondary-color : white;
+    --gray : gray;
+    --off-white : #f3f4f6;
+}
+
+/* page setup */
+body{
+    font-family: 'Montserrat', sans-serif;;
+    margin: 0px;
+}
+
+.link{
+    text-decoration: none;
+}
+
+/* navigation */
+.navigation{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 1rem;
+    border-bottom-left-radius: 2rem;
+}
+.navigation .brandName{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.navigation .link{
+    color: var(--secondary-color);
+}
+.list-item-non-bullets{
+    list-style: none;
+}
+.align-right{
+    text-align: right;
+}
+.list-item-inline{
+    display: inline;
+    padding: 0rem 1rem;
+}
+.link-active{
+    font-weight: bold;
+}
+
+/* header */
+header{
+    text-align: center;
+    padding: 2rem 1rem;
+}
+.hero-header{
+    color: var(--gray);
+}
+
+/* section */
+section{
+    text-align: center;
+    padding: 2rem 1rem;
+    border-radius: 1rem;
+}
+
+.off-white{
+    background-color: var(--off-white);
+}
+
+/* paragraph */
+p{
+    padding: 0.5rem;
+}
+
+/* button */
+
+.buttons{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.button-primary{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border-radius: 2rem;
+}
+
+.button-secondary{
+    border: 1px solid var(--primary-color);
+    border-radius: 2rem;
+    color: var(--primary-color);
+}
+
+/* footer */
+footer{
+    text-align: center;
+    padding: 2rem 1rem;
+    background-color: var(--primary-color);
+    border-top-right-radius: 2rem;
+    margin-top: 1rem;
+}
+
+.footer-header{
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: var(--secondary-color);
+}
+
+footer ul{
+    padding-inline-start: 0px;
+}
+
+footer a{
+    color: var(--secondary-color);
+}
